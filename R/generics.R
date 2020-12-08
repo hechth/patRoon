@@ -21,7 +21,7 @@ setGeneric("comparison", function(..., groupAlgo,
 setGeneric("groupFeatures", function(feat, algorithm, ...) standardGeneric("groupFeatures"))
 setGeneric("groupFeaturesScreening", function(fGroups, scr) standardGeneric("groupFeaturesScreening"))
 setGeneric("replicateGroupSubtract", function(fGroups, rGroups, threshold = 0) standardGeneric("replicateGroupSubtract"))
-setGeneric("calculatePeakQualities", function(fGroups) standardGeneric("calculatePeakQualities"))
+setGeneric("calculatePeakQualities", function(fGroups, flatnessFactor = 0.05) standardGeneric("calculatePeakQualities"))
 
 ### utils (XCMS)
 
